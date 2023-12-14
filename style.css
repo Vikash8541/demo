@@ -100,7 +100,7 @@ header .toggle-btn{
 .text-banner h3{
     font-family: var(--raleway);
     font-weight: 900;
-    font-size: clamp(2rem, 5vw, 3.7rem);
+    font-size: clamp(1.5rem, 5vw, 3.7rem);
 }
 .text-banner p{
     font-family: var(--poppins);
