@@ -10,6 +10,7 @@
     <link
         href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500&family=Raleway:wght@100;200;300;500;600;700;800&display=swap"
         rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@3.7.0/fonts/remixicon.css" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
 </head>
 
@@ -18,7 +19,7 @@
     <div class="wrapper">
 
         <!-- Header work start -->
-        <!-- <header class="bg-primary d-flex align-items-center justify-content-center py-4">
+        <header class="d-flex align-items-center justify-content-center py-4">
             <div class="container row align-items-center justify-content-between">
                 <div class="col-lg-6 col-md-6 col-sm-12">
                     <div class="logo">
@@ -26,7 +27,7 @@
                     </div>
                 </div>
                 <ul
-                    class="col-lg-6 col-md-6 col-sm-12 nav-links list-unstyled align-items-center justify-content-center gap-5 d-flex">
+                    class="col-lg-6 col-md-6 col-sm-12 nav-links list-unstyled align-items-center justify-content-center gap-5">
                     <li><a href="#">About</a></li>
                     <li><a href="#">Services</a></li>
                     <li><a href="#">Our Work</a></li>
@@ -34,48 +35,25 @@
                 </ul>
             </div>
 
-        </header> -->
+            <!-- Responsive work start -->
+            <ul class="nav-links-res list-unstyled align-items-center justify-content-center gap-5">
+                <li><a href="#">About</a></li>
+                <li><a href="#">Services</a></li>
+                <li><a href="#">Our Work</a></li>
+                <li><a href="#" class="donate-btn" style="background-color: #DA722C;">Enroll Now</a></li>
+            </ul>
+            <a href="#"><i class="ri-menu-line toggle-btn"></i></a>
+            <!-- Responsive work end -->
+        </header>
 
-        <nav class="navbar navbar-expand-lg py-4 position-fixed top-0 left-0 w-100" style="z-index: 999 !important;">
-            <div class="container-fluid">
-                <div class="logo">
-                    <h2>SK.</h2>
-                </div>
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
-                    aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
-                <div class="collapse navbar-collapse" id="navbarNav" style="    display: flex;
-              align-items: center;
-              justify-content: end;
-              gap: 45px;">
-                    <ul
-                        class="navbar-nav nav-links list-unstyled align-items-center justify-content-center gap-5 d-flex">
-                        <li>
-                            <a aria-current="page" href="#">About</a>
-                        </li>
-                        <li>
-                            <a href="#">Services</a>
-                        </li>
-                        <li>
-                            <a href="#">Our Work</a>
-                        </li>
-                        <li>
-                            <a href="#" class="donate-btn text-white">Donate Now</a>
-                        </li>
-                    </ul>
-                </div>
-            </div>
-        </nav>
+        <!--======================== Header work end ===========================-->
 
-        <!-- Header work end -->
+        <!--================================ Banner work start ================================-->
 
-        <!-- Banner work start -->
         <div class="banner container-fluid align-items-center justify-content-center d-flex">
             <div class="container row">
                 <div class="col-lg-6 col-md-6 col-sm-12">
-                    <div
-                        class="text-banner align-items-start justify-content-start text-white gap-4 d-flex flex-column">
+                    <div class="text-banner align-items-start justify-content-start text-white d-flex flex-column">
                         <h3>Help People in Need</h3>
                         <p>This is an organization which helps in conserving wildlife by helping in their treatment.</p>
                         <a href="#" class="donate-btn donate-btn-2" style="background-color: #DA722C;"><img
@@ -83,7 +61,7 @@
                     </div>
                 </div>
                 <div class="col-lg-6 col-md-6 col-sm-12">
-                    <div class="girimg align-items-end justify-content-end d-flex">
+                    <div class="girlimg align-items-end justify-content-end d-flex">
                         <img src="./Img/hero-image1.png" alt="...">
                     </div>
                 </div>
@@ -101,34 +79,20 @@
             </div>
         </div>
 
-        <!-- Banner work end -->
+        <!-- =============================Banner work end =================================-->
 
-        <!-- Testimonial work start -->
+        <!-- ==============================Testimonial work start================================ -->
         <div class="testimonial contianer-fluid align-items-center justify-content-center d-flex">
-            <div class="container row">
-                <div class="col-lg-6 col-md-6 col-sm-12">
-                    <!-- <div class="feedback">
-                        <div class="feedbox">
-                            <div class="review">
-                                <h5>This was a great help to wildlife. It helped many wildlife animals. Thank you :)</h5>
-                                <div class="test-img d-flex align-items-center justify-content-between">
-                                    <div class="names ">
-                                        <h5>Jane Cooper</h5>
-                                        <p>Villager, Vadgaon</p>
-                                    </div>
-                                    <img src="./Img/TestimonialImage.png" alt="...">
-                                </div>
-                            </div>
-                        </div>
-                    </div> -->
-                    <!-- <div class="feedbox"> -->
-                        <!-- <div class="feedback"> -->
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-6 col-md-6 col-sm-12">
+                        <div class="feedback-bar">
                             <div class="review d-flex align-items-start justify-content-start flex-column mb-5">
                                 <div class="text-h2">
-                                    <h2 class="mb-4">This was a great help to wildlife. It helped many wildlife animals.
+                                    <h2>This was a great help to wildlife. It helped many wildlife animals.
                                         Thank you :)</h2>
                                 </div>
-                                <div class="data d-flex align-items-center justify-content-between gap-4 px-4">
+                                <div class="data w-100 d-flex align-items-center justify-content-between gap-4 px-4">
                                     <div class="names">
                                         <div>
                                             <h5>Jane Cooper</h5>
@@ -144,9 +108,9 @@
                             </div>
                             <div class="review d-flex align-items-start justify-content-start flex-column">
                                 <div class="text-h2">
-                                    <h2 class="mb-4">Amazing Work! Well done!</h2>
+                                    <h2>Amazing Work! Well done!</h2>
                                 </div>
-                                <div class="data d-flex align-items-center justify-content-between gap-4 px-4">
+                                <div class="data w-100 d-flex align-items-center justify-content-between gap-4 px-4">
                                     <div class="names">
                                         <div>
                                             <h5>Jacob Jones</h5>
@@ -160,18 +124,19 @@
                                     </div>
                                 </div>
                             </div>
-                        <!-- </div> -->
-                    <!-- </div> -->
-                </div>
-                <div class="col-lg-6 col-md-6 col-sm-12">
-                    <div
-                        class="member-text text-banner  align-items-start justify-content-start text-black d-flex flex-column gap-4">
-                        <h3 style="font-weight:bolder;">What our members say</h3>
+                        </div>
+                    </div>
 
-                        <p>All the Wildlife have equal chances to live their free lives.
-                            Save Environment. Save Forests. Save Wildlife</p>
-                        <a href="#" class="donate-btn donate-btn-2" style="background-color: #DA722C;">&nbsp;Learn
-                            More</a>
+                    <div class="col-lg-6 col-md-6 col-sm-12">
+                        <div
+                            class="member-text text-banner  align-items-start justify-content-start text-black d-flex flex-column">
+                            <h3 style="font-weight:1000;">What our members say</h3>
+
+                            <p>All the Wildlife have equal chances to live their free lives.
+                                Save Environment. Save Forests. Save Wildlife</p>
+                            <a href="#" class="donate-btn donate-btn-2" style="background-color: #DA722C;">&nbsp;Learn
+                                More</a>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -180,7 +145,7 @@
 
 
 
-        <!-- Testimonial work end -->
+        <!-- ======================================Testimonial work end ============================================-->
     </div>
 
 
